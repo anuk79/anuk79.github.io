@@ -3,6 +3,7 @@ layout: default
 title: Anuradha Kumari
 permalink: /my_projects/
 is_home_btn_reqd: "True"
+is_project_btn_reqd: "False"
 ---
 
 ## List of POCs worked on.
