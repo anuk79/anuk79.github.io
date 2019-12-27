@@ -29,13 +29,17 @@
       {% if page.is_home_btn_reqd == "True" %}
         <a href="/" class="btn">Home</a>
       {% endif %}
-      {% if page.is_aboutpage != "True" %}
-        <a href="/about_me" class="btn">About Me</a>
+      {% if page.is_project_btn_reqd == "True" %}
         <a href="/my_projects" class="btn">My projects</a>
       {% endif %}
+      {% if page.is_aboutpage != "True" %}
+        <a href="/about_me" class="btn">About Me</a>
+      {% endif %}
       {% if page.is_aboutpage == "True" %}
-        <a href="{{site.twitter_url}}" class="btn">Reach out on Twitter</a>
-        <a href="{{site.linkedin_url}}" class="btn">Let's Connect on LinkedIn</a>
+        <a href="{{site.twitter_url}}" class="btn">Twitter</a>
+        <a href="{{site.linkedin_url}}" class="btn">LinkedIn</a>
+        <a href="{{site.stackoverflow_url}}" class="btn">Stack overflow</a>
+        <a href="{{site.hackerrank_url}}" class="btn">Hackerrank</a>
       {% endif %}
       
     </header>
