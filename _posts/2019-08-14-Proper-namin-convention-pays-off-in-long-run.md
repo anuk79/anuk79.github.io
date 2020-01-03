@@ -37,10 +37,9 @@ Let’s understand through some examples:
 
     // using plural names for arrays, etc.
     var candidates = [];
-
   ```
 
-  For variables which store **boolean** values, often **is/has/did/should**, etc are pre-pended. So when we read that name, it is quite clear that the value will be either true or false, like:
+  For variables which store **boolean** values, often **is/has/did/should**, etc are pre-pended. So when we read that name,   it is quite clear that the value will be either true or false, like:
   ```
     // boolean values
     var hasError = false;
