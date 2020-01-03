@@ -1,6 +1,6 @@
 ---
 title:  "Proper naming convention pays off in long run"
-categories: Unit_Tests
+categories: Programming
 tags: ['Code', 'Naming', 'Programming']
 is_post: "True"
 is_home_btn_reqd: "True"
