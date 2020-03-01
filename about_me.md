@@ -18,5 +18,5 @@ I speak **JavaScript** with native fluency. You can also find me coding in
 - Redux
 - Bootstrap
 
-Mentoring :woman_teacher: and motivating :butterfly: others is another thing people say I am good at. 
+Mentoring :woman_teacher: and motivating :butterfly: others are another things people say I am good at. 
 
