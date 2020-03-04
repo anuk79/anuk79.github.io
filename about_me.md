@@ -20,3 +20,5 @@ I speak **JavaScript** with native fluency. You can also find me coding in
 
 Mentoring :woman_teacher: and motivating :butterfly: others are another things people say I am good at. 
 
+
+
