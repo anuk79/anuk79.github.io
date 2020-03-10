@@ -7,12 +7,12 @@ is_project_btn_reqd: "False"
 ---
 
 ## The technical talks conducted by me
-
+(Slides coming soon)
 
 1. Unit testing using Jest and Enzyme - webinar hosted by Globant
    
    
-2. Test driven development and how to tets React applications - CodeRealm hosted by Globant
+2. TDD and how to test React applications - CodeRealm hosted by Globant
    
    
 3. a11y - meetup by ReactJS and Friends
