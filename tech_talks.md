@@ -10,6 +10,8 @@ is_project_btn_reqd: "False"
 (Slides coming soon)
 
 1. Unit testing using Jest and Enzyme - webinar hosted by Globant
+
+2. Server Side Rendering - CodeRealm hosted by Globant
    
    
 2. TDD and how to test React applications - CodeRealm hosted by Globant
