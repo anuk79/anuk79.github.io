@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Anuradha Kumari
-permalink: /my_talks/
+permalink: /tech_talks/
 is_home_btn_reqd: "True"
 is_project_btn_reqd: "False"
 ---
