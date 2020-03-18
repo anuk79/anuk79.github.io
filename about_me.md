@@ -8,8 +8,7 @@ is_home_btn_reqd: "True"
 
 ## Hii, Welcome to my personal blog :wave: :wave: :wave:
 
-My name is **Anuradha Kumari** and I am a passionate **Web UI Developer** :woman_technologist:.
-I am a tech enthusiast and love exploring new technologies. Learning new things and sharing with the community via tech talks or blogs is my hobby. 
+My name is **Anuradha Kumari** and I am a passionate **Web UI Developer** :woman_technologist:. Currently working as a Senior Software Developer II, I am a tech enthusiast and love exploring new technologies. Learning new things and sharing with the community via tech talks or blogs is my hobby. 
 
 I speak **JavaScript** with native fluency. You can also find me coding in
 - HTML/5
