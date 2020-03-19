@@ -10,12 +10,22 @@ is_home_btn_reqd: "True"
 
 My name is **Anuradha Kumari** and I am a passionate **Web UI Developer** :woman_technologist:. Currently working as a Senior Software Developer II at [Mediaocean](https://www.mediaocean.com/), I am a tech enthusiast and love exploring new technologies. Learning new things and sharing with the community via tech talks or blogs is my hobby. 
 
-I speak **JavaScript** with native fluency. You can also find me coding in
+I speak **JavaScript** with native fluency. My primary skills are:
+- JavaScript/ ES6 / TypeScript
 - HTML/5
 - CSS/3
 - React
-- Redux
+- Redux/Redux-Thunk
 - Bootstrap
+- TDD
+
+I also have experience in:
+- Vue
+- Vuex
+- React Native
+- Flutter
+- c#
+
 
 Mentoring :woman_teacher: and motivating :butterfly: others are another things people say I am good at. 
 
