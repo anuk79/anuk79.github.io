@@ -6,10 +6,13 @@ is_home_btn_reqd: "True"
 is_project_btn_reqd: "False"
 ---
 
-## The technical talks conducted by me
+I hold passion for exploring new technologies and love sharing the knowledge gained. 
+I love public speaking and the technical discussions and they motivate me to learn and explore further :)
+
+## TCEH TALKS
 (Slides coming soon)
 
-
+ 
 | Title                                  | Event Name                                                                                         | Technology                           |
 |----------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------|
 | Demystifying Unit Testing              | [Globant UI Orbit Webinar](https://www.meetup.com/Globant-UI-Engineering-Events/events/263164261/) | JavaScript, React, Jest, Enzyme, TDD |
