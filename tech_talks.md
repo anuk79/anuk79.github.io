@@ -22,3 +22,9 @@ I love public speaking and the technical discussions and they motivate me to lea
 
 
 
+## Upcoming talk details
+
+| Month-Year 	| Title of Talk                                         	| Conference / Event details  	| Technology tags     	| Resources 	|
+|------------	|-------------------------------------------------------	|-----------------------------	|---------------------	|-----------	|
+| June 2020  	| Introduction to Accessibility - why should it matter? 	| [WTM event at GDG Baroda](https://www.meetup.com/gdgbaroda/events/270976986/) 	| Accessibility, a11y 	|  Coming soon         	|
+
