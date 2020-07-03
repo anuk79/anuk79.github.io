@@ -11,6 +11,10 @@
   color: #1f971f;
 }
 
+.pill-items {
+    padding-left: 0;
+}
+
 .pill-items li {
     margin: 10px 5px;
     border-radius: 4px;
@@ -21,4 +25,33 @@
     border: 1px solid #1F971F;
     padding: 4px 10px;
     border-radius: 4px;
+}
+
+.talk-card {
+	visibility: visible;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+	
+	
+	box-shadow: 0px 10px 20px 4px #00000015;
+	margin: 5px 10px;
+	padding: 20px;
+
+}
+
+.talk-card h3 {
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: #1f971f;
+}
+
+.talk-card .event-details,
+.talk-card .sub-details {
+	padding-top: 10px;
+}
+
+.fa-at,
+.fa-external-link-square {
+	margin-right: 5px;
 }
