@@ -27,17 +27,20 @@
     border-radius: 4px;
 }
 
-.talk-card {
-	visibility: visible;
-    animation-duration: 0.8s;
-    animation-delay: 0.3s;
-    animation-name: fadeInUp;
-	
-	
-	box-shadow: 0px 10px 20px 4px #00000015;
-	margin: 5px 10px;
-	padding: 20px;
+.talk-card {	
+    box-shadow: 0px 10px 20px 4px #00000015;
+    margin: 5px 10px 30px;
+    padding: 20px;
+}
 
+.talk-card:hover {
+    border: 1px solid #1F971F;
+    box-shadow: 0px 5px 10px 5px #00000015;
+    padding: 19px;
+}
+
+.talk-card:hover .fa {
+	color: #1F971F;
 }
 
 .talk-card h3 {
