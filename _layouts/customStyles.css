@@ -1,0 +1,12 @@
+.page-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+@media screen and (min-width: 64em) {
+  .project-name {
+      font-size: 3rem;
+  }
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #1f971f;
+}
