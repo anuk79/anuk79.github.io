@@ -37,6 +37,7 @@
     border: 1px solid #1F971F;
     box-shadow: 0px 5px 10px 5px #00000015;
     padding: 19px;
+    color: black;
 }
 
 .talk-card:hover .fa {
