@@ -10,3 +10,15 @@
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #1f971f;
 }
+
+.pill-items li {
+    margin: 10px 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.pill-items li > span {
+    border: 1px solid #1F971F;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
