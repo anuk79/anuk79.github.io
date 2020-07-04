@@ -59,3 +59,13 @@
 .fa-external-link-square {
 	margin-right: 5px;
 }
+
+.footer-contact-links span {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer-contact-links i {
+    margin-right: 5px;
+    color: black;
+}
