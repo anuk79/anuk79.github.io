@@ -56,16 +56,21 @@
 }
 
 .fa-at,
-.fa-external-link-square {
+.fa-external-link-square,
+.project-info i {
 	margin-right: 5px;
 }
 
 .footer-contact-links span {
-    margin-right: 10px;
+    margin-right: 15px;
     display: inline-block;
 }
 
 .footer-contact-links i {
     margin-right: 5px;
     color: black;
+}
+
+.project-info li {
+    margin-bottom: 15px;	
 }
