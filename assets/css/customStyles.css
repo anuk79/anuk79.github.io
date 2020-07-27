@@ -74,3 +74,11 @@
 .project-info li {
     margin-bottom: 15px;	
 }
+
+/**
+.project-info img {
+    max-height: fit-content;
+    width: auto;
+    object-fit: contain;
+}
+*/
