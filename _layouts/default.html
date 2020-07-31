@@ -38,7 +38,11 @@
       {% endif %}
       {% if page.is_aboutpage != "True" %}
         <a href="/about_me" class="btn">About Me</a>
-      {% endif %}      
+      {% endif %} 
+      {% if page.is_contact_page != "True" %}
+        <a href="/contact_me" class="btn">Contact</a>
+      {% endif %}
+      
     </header>
 
     <main id="content" class="main-content" role="main">
