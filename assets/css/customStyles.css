@@ -101,6 +101,8 @@
     border-radius: 10px;
     border: solid 1.2px #606c71;    
     margin-top: 10px !important;
+    color: black;
+    padding: 2px 10px;
 }
 
 .contact-me textarea {
