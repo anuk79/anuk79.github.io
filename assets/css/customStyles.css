@@ -82,3 +82,29 @@
     object-fit: contain;
 }
 */
+
+.contact-me label {
+    color: #1f971f;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 20px;
+}
+
+.contact-me input,
+.contact-me textarea {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1.2px #606c71;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.contact-me button {
+    width: 100%;
+    color: white;
+    background-color: #1f971f;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+}
