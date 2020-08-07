@@ -117,3 +117,11 @@
     border-radius: 20px;
     height: 40px;
 }
+
+.site-footer {
+    text-align: center;
+}
+
+.footer-contact-links .fa {
+    font-size: 32px;
+}
