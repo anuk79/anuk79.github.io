@@ -12,21 +12,19 @@ is_contact_page: "True"
 <div>If you want to discuss some technical topics, or you have suggestions/feedbacks for me, or you want me to speak at any event, please get in touch via filling the form below. 
   </div>
 	<br/>
-  <form action="https://formkeep.com/f/dfcbf057d712"
-	accept-charset="UTF-8"
-	enctype="multipart/form-data"
-	method="POST">
-  <label>Name:
+  <form name="portfolio-contact-form" method="POST" data-netlify="true" >
+	  <input type="hidden" name="form-name" value="portfolio-contact-form" />
+  <label>Name*
   <input type="text" name="name" placeholder="Your Name here" required>
   </label>
-  <label>Email:
+  <label>Email*
 	  <input type="email" name="email" placeholder="Your Email here" required>
 	  </label>
-	  <label>Details:
-  <textarea name="description" placeholder="What do you want to talk about?" rows="8" required></textarea>
+	  <label>Message*
+  <textarea name="description" placeholder="Your message here" rows="8" required></textarea>
 	  </label>
 
-  <input type="hidden" name="utf8" value="✓">
+  
   <button type="submit">Submit</button>
 </form>
 
