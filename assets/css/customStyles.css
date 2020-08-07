@@ -126,13 +126,10 @@
     font-size: 1.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-	.footer-contact-links .fa {
-	  transition: 1.9s;
-	}
-	
+@media (prefers-reduced-motion: no-preference) {	
 	.footer-contact-links a:hover .fa {
-	transform: rotateX(360deg);
+		transition: 1.9s;
+		transform: rotateY(360deg);
 	}
 }
 
