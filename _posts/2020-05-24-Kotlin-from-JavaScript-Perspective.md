@@ -5,6 +5,9 @@ tags: ['Kotlin', 'JavaScript']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "Sharing some basic takeaways from Kotlin from a javaScript developer perspective."
+layout: default
+permalink: /kotlin/2020/05/24/kotlin-from-javascript-perspective/
+is_project_btn_reqd: "False"
 ---
 
 # Kotlin from JavaScript perspective
