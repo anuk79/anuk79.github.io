@@ -10,7 +10,7 @@ permalink: /flutter/2019/05/28/errors-i-encountered-as-a-flutter-begineer/
 is_project_btn_reqd: "False"
 ---
 
-# Errors I encountered as a Flutter beginner
+
 
 Hi everyone, today I will share some of the errors which I encountered while getting started with Flutter and how can we solve them. If you are already working with Flutter for sometime now, you might find the errors very naive and simple. But as a beginner in this new technology, with almost negligible prior experience in mobile development, it took time for me to research and fix these errors.
 So it occurred to me, to create a list of the issues, to help anyone out there.
