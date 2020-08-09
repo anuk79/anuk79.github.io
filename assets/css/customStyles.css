@@ -133,3 +133,22 @@
 	}
 }
 
+.project-info li {
+    list-style: none;
+    border: solid 1px #f3f3f3;
+    border-radius: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 10px;
+}
+
+.project-info a {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.project-info div {
+    padding: 15px 15px;
+}
+
