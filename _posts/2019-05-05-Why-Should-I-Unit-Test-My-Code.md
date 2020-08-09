@@ -5,7 +5,11 @@ tags: ['Unit Testing', 'TDD', 'Javascript']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "A very popular debate in dev community"
+layout: default
+permalink: /unit_tests/2019/05/05/why-should-i-unit-test-my-code
+is_project_btn_reqd: "False"
 ---
+
 
 # Why should I unit test my code?
 
