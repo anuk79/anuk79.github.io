@@ -30,28 +30,32 @@
     </form>
     
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      {% if page.is_post != "True" %}
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% endif %}
-      {% if page.is_home_btn_reqd == "True" %}
+      {% if page.is_post == "True" %}
         <a href="/" class="btn">Home</a>
       {% endif %}
-       {% if page.is_aboutpage != "True" %}
-        <a href="/about_me" class="btn">About Me</a>
-      {% endif %} 
-      {% if page.is_project_btn_reqd != "False" %}
-        <a href="/my_projects" class="btn">Projects</a>
-        
-        <a href="/tech_talks" class="btn">Tech talks</a>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
-        <a href="https://github.com/anuk79/" target="_blank" class="btn">Github</a>
-      {% endif %}
-     
-      {% if page.is_contact_page != "True" %}
-        <a href="https://anuk79.netlify.app/contact_me" class="btn">Contact</a>
-      {% endif %}
+      {% if page.is_post != "True" %}
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       
+        {% if page.is_home_btn_reqd == "True" %}
+          <a href="/" class="btn">Home</a>
+        {% endif %}
+         {% if page.is_aboutpage != "True" %}
+          <a href="/about_me" class="btn">About Me</a>
+        {% endif %} 
+        {% if page.is_project_btn_reqd != "False" %}
+          <a href="/my_projects" class="btn">Projects</a>
+
+          <a href="/tech_talks" class="btn">Tech talks</a>
+
+          <a href="https://github.com/anuk79/" target="_blank" class="btn">Github</a>
+        {% endif %}
+
+        {% if page.is_contact_page != "True" %}
+          <a href="https://anuk79.netlify.app/contact_me" class="btn">Contact</a>
+        {% endif %}
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
