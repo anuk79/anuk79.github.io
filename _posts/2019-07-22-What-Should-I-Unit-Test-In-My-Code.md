@@ -4,6 +4,9 @@ categories: Unit_Tests
 tags: ['Unit Testing', 'TDD', 'Javascript']
 is_post: "True"
 is_home_btn_reqd: "True"
+layout: default
+permalink: /unit_tests/2019/07/22/what-should-i-unit-test-in-my-code/
+is_project_btn_reqd: "False"
 ---
 
 # What should I unit test in my code?
