@@ -72,6 +72,10 @@
     color: black;
 }
 
+.project-info ul {
+    padding-left: 0;
+}
+
 .project-info li {
     margin-bottom: 15px;	
 }
