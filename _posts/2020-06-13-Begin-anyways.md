@@ -10,6 +10,5 @@ permalink: /motivation/2020/06/13/begin-anyways/
 is_project_btn_reqd: "False"
 ---
 
-# Not sure if you should write that blog— Begin anyways
 
 [Medium post link](https://medium.com/@anuradha15/not-sure-if-you-should-write-that-blog-begin-anyways-d35aac370b64)
