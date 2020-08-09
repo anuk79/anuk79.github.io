@@ -195,3 +195,23 @@
     font-weight: 600;
 }
 
+.posts {
+	padding-left: 0;
+}
+
+.posts li {
+	border-bottom: solid 1.5px #b5aeae;
+	margin-bottom: 25px;
+	list-style: none;
+}
+
+.posts a {
+	font-size: 1.4em;
+	color: #15638d;
+	font-weight: 600;
+}
+
+.blog-tags {
+	padding-bottom: 15px;
+}
+
