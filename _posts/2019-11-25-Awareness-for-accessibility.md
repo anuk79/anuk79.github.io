@@ -5,6 +5,9 @@ tags: ['Accessibility', 'a11y', 'Web Accessibility']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "Making resources and services usable and accessible for all"
+layout: default
+permalink: /accessibility/2019/11/25/awareness-for-accessibility/
+is_project_btn_reqd: "False"
 ---
 
 
