@@ -1,10 +1,13 @@
 ---
 title:  "Errors I encountered as a Flutter beginner"
-categories: Programming
+categories: flutter
 tags: ['Flutter', 'Dart', 'Programming']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "In the coding universe, names matter a lot."
+layout: default
+permalink: /flutter/2019/05/28/errors-i-encountered-as-a-flutter-begineer/
+is_project_btn_reqd: "False"
 ---
 
 # Errors I encountered as a Flutter beginner
