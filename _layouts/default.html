@@ -37,14 +37,17 @@
       {% if page.is_home_btn_reqd == "True" %}
         <a href="/" class="btn">Home</a>
       {% endif %}
-      {% if page.is_project_btn_reqd != "False" %}
-        <a href="/my_projects" class="btn">My projects</a>
-        <a href="https://github.com/anuk79/" target="_blank" class="btn">Github</a>
-        <a href="/tech_talks" class="btn">Tech talks</a>
-      {% endif %}
-      {% if page.is_aboutpage != "True" %}
+       {% if page.is_aboutpage != "True" %}
         <a href="/about_me" class="btn">About Me</a>
       {% endif %} 
+      {% if page.is_project_btn_reqd != "False" %}
+        <a href="/my_projects" class="btn">Projects</a>
+        
+        <a href="/tech_talks" class="btn">Tech talks</a>
+      
+        <a href="https://github.com/anuk79/" target="_blank" class="btn">Github</a>
+      {% endif %}
+     
       {% if page.is_contact_page != "True" %}
         <a href="https://anuk79.netlify.app/contact_me" class="btn">Contact</a>
       {% endif %}
