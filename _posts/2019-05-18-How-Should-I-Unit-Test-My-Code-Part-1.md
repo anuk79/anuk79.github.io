@@ -9,6 +9,6 @@ permalink: /unit_tests/2019/05/18/how-should-i-unit-test-my-code-part-1/
 is_project_btn_reqd: "False"
 ---
 
-# How should I unit test my code-Part 1 (Setup)
+
 
 **NOTE:** This article was originally posted on [Medium](https://medium.com/@anuradha15/https-medium-com-anuradha15-how-should-i-unit-test-my-code-part-1-configuring-jest-and-enzyme-16d033d59603)
