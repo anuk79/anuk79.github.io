@@ -12,8 +12,6 @@ is_project_btn_reqd: "False"
 
 
 
-# Increasing awareness serves the best chance to achieve accessibility for all
-
 [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility#:~:targetText=Accessibility%20is%20the%20practice%20of,those%20with%20slow%20network%20connections.) means making resources and services usable and accessible for all. 
 It is a very important aspect of the digital world and beyond and it’s our job to make the content accessible to the very user for which it has been created.
 
