@@ -10,7 +10,7 @@ permalink: /programming/2019/08/14/proper-namin-convention-pays-off-in-long-run/
 is_project_btn_reqd: "False"
 ---
 
-# Proper naming convention pays off in long run
+
 Hi everyone, today we will explore how we can use grammar to properly name our variables and functions. I have been using these ever since college and have found it to be extremely helpful for writing readable and clean code.
 
 ## Why proper naming convention matters
