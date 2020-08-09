@@ -5,6 +5,9 @@ tags: ['Code', 'Naming', 'Programming']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "In the coding universe, names matter a lot."
+layout: default
+permalink: /programming/2019/08/14/proper-namin-convention-pays-off-in-long-run/
+is_project_btn_reqd: "False"
 ---
 
 # Proper naming convention pays off in long run
