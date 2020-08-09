@@ -1,10 +1,13 @@
 ---
 title:  "Let’s flatten that multi-dimensional array"
-categories: Unit_Tests
+categories: Programming
 tags: ['Javascript', 'Arrays', 'Problem-Solving', 'Interview Questions']
 is_post: "True"
 is_home_btn_reqd: "True"
 subTitle: "Write a function to flatten a multi-dimensional array (depth can go till n-levels) and the result should not contain any null/undefined values."
+layout: default
+permalink: /programming/2020/02/29/let's-flatten-that-multi-dimesional-array/
+is_project_btn_reqd: "False"
 ---
 
 # Let’s flatten that multi-dimensional array
