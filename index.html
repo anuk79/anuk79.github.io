@@ -12,10 +12,10 @@ title: {{ site.name }}
       <a href="{{ post.url }}">{{ post.title }}</a>  
       <p>
         <div class="blog-date">
-          <i class="fa fa-calendar" aria-hidden="true"></i>
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
           <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
         </div>
-        <div class="blog-tags"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags | join: ", " }}</div>
+        <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i> {{ post.tags | join: ", " }}</div>
       </p>
     </li>
     {% endfor %}
