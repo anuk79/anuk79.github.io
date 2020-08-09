@@ -10,7 +10,6 @@ permalink: /programming/2020/02/29/let's-flatten-that-multi-dimesional-array/
 is_project_btn_reqd: "False"
 ---
 
-# Let’s flatten that multi-dimensional array
 
 Hi everyone, how are you doing? This is my first article for the year 2020 and let’s get into some problem-solving exercise today.
 
