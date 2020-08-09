@@ -139,16 +139,35 @@
     border-radius: 20px;
     padding: 10px 0px;
     text-align: center;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 0px 5px 10px 5px #00000015;
+    margin-bottom: 30px;
+}
+
+.project-info li:hover {
+    border: 1px solid #1F971F;
+    box-shadow: 0px 5px 10px 5px #00000015;
+    color: black;
+}
+
+.project-info li h2 {
+    color: #4e4a4a;
+}
+
+.project-info .fa {
+    color: #4e4a4a;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+
+.project-info .fa:hover {
+    color: #1F971F;
 }
 
 .project-info a {
-    margin-bottom: 10px;
-    display: inline-block;
-    font-size: 1.2em;
+    
 }
 
 .project-info div {
-    padding: 15px 15px;
+    padding: 10px 15px 5px;
 }
 
