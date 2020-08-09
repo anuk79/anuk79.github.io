@@ -11,6 +11,12 @@
   color: #1f971f;
 }
 
+.back-to-home-link a,
+.back-to-home-link .fas{
+  color: white;
+  font-size: 1.2em;
+}
+
 .pill-items {
     padding-left: 0;
 }
