@@ -31,7 +31,7 @@
     
     <header class="page-header" role="banner">
       {% if page.is_post == "True" %}
-        <a href="/" class="btn">Home</a>
+      <div class="back-to-home-link"><a href="/">Home</a></div>
       {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
