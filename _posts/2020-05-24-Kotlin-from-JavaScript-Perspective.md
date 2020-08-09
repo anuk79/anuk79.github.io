@@ -10,6 +10,5 @@ permalink: /kotlin/2020/05/24/kotlin-from-javascript-perspective/
 is_project_btn_reqd: "False"
 ---
 
-# Kotlin from JavaScript perspective
 
 [Medium post link](https://medium.com/@anuradha15/kotlin-from-javascript-perspective-b90c0f2700c)
