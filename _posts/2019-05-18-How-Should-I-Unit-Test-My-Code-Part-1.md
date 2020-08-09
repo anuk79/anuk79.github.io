@@ -4,6 +4,9 @@ categories: Unit_Tests
 tags: ['Unit Testing', 'TDD', 'Javascript', 'Jest', 'Enzyme', 'React']
 is_post: "True"
 is_home_btn_reqd: "True"
+layout: default
+permalink: /unit_tests/2019/05/18/how-should-i-unit-test-my-code-part-1/
+is_project_btn_reqd: "False"
 ---
 
 # How should I unit test my code-Part 1 (Setup)
