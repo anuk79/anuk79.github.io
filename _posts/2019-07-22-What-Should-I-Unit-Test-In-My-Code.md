@@ -9,7 +9,6 @@ permalink: /unit_tests/2019/07/22/what-should-i-unit-test-in-my-code/
 is_project_btn_reqd: "False"
 ---
 
-# What should I unit test in my code?
 
 Hello everyone, in my previous articles, I covered the WHY, and HOW aspects of unit testing. Now is the time to explore the WHAT question.
 
