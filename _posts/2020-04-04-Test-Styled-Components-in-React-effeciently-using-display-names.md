@@ -10,6 +10,4 @@ permalink: /unit_tests/2020/04/04/test-styled-components-in-react-effeciently-us
 is_project_btn_reqd: "False"
 ---
 
-# Test styled components in React efficiently using ‘displayName’
-
 [Medium post link](https://medium.com/@anuradha15/test-styled-components-in-react-efficiently-using-displayname-53281a0c1f2d)
