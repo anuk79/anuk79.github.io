@@ -32,13 +32,9 @@ is_project_btn_reqd: "False"
           Thankfully, I got the helpful link in the first attempt itself (what a relief!)
           </p>
       </div>
-      <br/>
         <div>
           <strong>The solution I found:</strong>
-         <br />
-          <div>>
-          <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/" target="_blank">Read about selective dependency resolutions here</a>
-          </div>
+          <br />          
           In a nutshell, I followed below steps: 
           <ol>
             <li> Deleted the package lock file created</li>
@@ -60,6 +56,10 @@ is_project_btn_reqd: "False"
             </li>
             <li>Re-run yarn upgrade command for package-1, and this time it does not increment the sub-dependency version. Problem solved!</li>
           </ol>
+          
+          <div>
+          Reference link: <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/" target="_blank">Read about selective dependency resolutions here</a>
+          </div>
         </div>
     </li>
   </ul>
