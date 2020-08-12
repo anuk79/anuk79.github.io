@@ -202,7 +202,7 @@
 }
 
 .posts,
-.til {
+.til-list {
 	padding-left: 0;
 }
 
@@ -222,7 +222,7 @@
 	padding-bottom: 15px;
 }
 
-.til ul h2 {
+.til-list h2 {
 	color: #15638d;
 }
 
