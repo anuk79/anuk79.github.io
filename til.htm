@@ -11,10 +11,10 @@ is_project_btn_reqd: "False"
 <section class="til">
   <h2>Sharing my everyday learnings</h2>
 
-<p>This page will contain all the learnings and related resources which might be helpful for me in future as a quick reference. Sharing in public, in case anyone else finds it useful.</p>
+<p>This page will contain all the learnings and related resources which might be helpful for me in future as a quick reference. 
+  Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
     <li>  
-      <p>
       <h2>Add resolutions to package.json</h2>
         <div class="blog-date">
           <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
@@ -22,42 +22,45 @@ is_project_btn_reqd: "False"
         </div>
 <!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
         <div>
-          <strong>What was the issue?</strong> 
-          <br />
+          <strong>What was the issue?</strong> <br />
+          <p>
           One of the sub-dependencies of my project got updated unintentionally to incorrect version (after running yarn upgrade on a dependency).
           To fix this, we had to add a resolution for the sub-dependecy to prevent it from causing any issues the release.
-          <br />
+          </p>
+          <p>
           Now, I heard this term <i>add resolution</i> for the first time, and had no idea what to do. So I followed the (dev) religious practice and googled about it. 
           Thankfully, I got the helpful link in the first attempt itself (what a relief!)
+          </p>
       </div>
       <br/>
         <div>
           <strong>The solution I found:</strong>
-          <br />
+         <br />
+          <div>>
           <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/" target="_blank">Read about selective dependency resolutions here</a>
-          <br />
+          </div>
           In a nutshell, I followed below steps: 
           <ol>
             <li> Deleted the package lock file created</li>
             <li> 
               Added a resolutions entry in the package.json for the sub-dependency
-              <code>
-                {
-                  "dependencies": {
-                    "package-1": "2.3.1",
-                    "package-2": "3.1.7",
-                  }
-                  "resolutions": {
-                    // because I upgraded package-1 and it had package-2 as dependency which got upgraded to a higher version which we did not want
-                    "package-2": "3.1.7"  
-                   }
-                }
-              </code>
+              <pre>
+  {
+    "dependencies": {
+      "package-1": "2.3.1",
+      "package-2": "3.1.7",
+    }
+    "resolutions": {
+      /** because I upgraded package-1 and it had package-2 as dependency 
+        * which got upgraded to a higher version which we did not want */
+      "package-2": "3.1.7"  
+     }
+  }
+              </pre>
             </li>
             <li>Re-run yarn upgrade command for package-1, and this time it does not increment the sub-dependency version. Problem solved!</li>
           </ol>
         </div>
-      </p>
     </li>
   </ul>
 </section>
