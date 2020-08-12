@@ -1,0 +1,33 @@
+---
+layout: default
+is_home_page: “True”
+title: Anuradha Kumari
+pageTitle: Sharing my learnings
+permalink: /til/
+is_home_btn_reqd: "True"
+is_project_btn_reqd: "False"
+---
+
+<section class="til">
+<p>This page will contain all the learnings and related resources which might be helpful for me in future as a quick reference. Sharing in public, in case anyone else finds it useful.</p>
+  <ul class="posts">
+    <li>  
+      <p>
+      <h2>Add resolutions to package.json</h2>
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="08/12/2020">11 August 2020</time>
+        </div>
+        <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i> </div>
+        <div>
+          So, today I came across a situation where we had to add a resolution for a package who version got unintentionally updated with yarn upgrade command.
+          Now, I heard this term for the first time, and hence googled the same. Thankfull, got the helpful link in the first attempt itself.
+        <div>
+          <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/" target="_blank">Read about selective dependency resolutions here</a>
+        </div>
+        </div>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
