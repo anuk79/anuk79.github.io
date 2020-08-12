@@ -201,11 +201,13 @@
     font-weight: 600;
 }
 
-.posts {
+.posts,
+.til {
 	padding-left: 0;
 }
 
-.posts li {
+.posts li,
+.til li {
 	border-bottom: solid 1.5px #b5aeae;
 	margin-bottom: 25px;
 	list-style: none;
@@ -218,5 +220,9 @@
 
 .blog-tags {
 	padding-bottom: 15px;
+}
+
+.til h2 {
+	color: #15638d;
 }
 
