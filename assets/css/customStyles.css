@@ -207,7 +207,7 @@
 }
 
 .posts li,
-.til li {
+.til-list > li {
 	border-bottom: solid 1.5px #b5aeae;
 	margin-bottom: 25px;
 	list-style: none;
@@ -224,5 +224,9 @@
 
 .til-list h2 {
 	color: #15638d;
+}
+
+.til-list div {
+	margin-bottom: 15px;
 }
 
