@@ -229,4 +229,19 @@
 .til-list div {
 	margin-bottom: 15px;
 }
-
+.show { display: block;	}
+.hide { display: none;}
+.accordion button {
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	text-align: left;
+	font-size: 1.2em;
+	padding: 10px 5px;
+	cursor: pointer;	
+}
+	
+/* 	.accordion {
+		padding: 10px 15px;
+		
+	} */
