@@ -14,8 +14,11 @@ is_project_btn_reqd: "False"
 <p>This page will contain all the learnings and related resources which might be helpful for me in future as a quick reference. 
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
-    <li>  
-      <h2>Add resolutions to package.json</h2>
+    <li  class="accordion" id="ac-1">  
+      <h2>
+        <button onclick=toggle('ac-1')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Add resolutions to package.json</button>
+        </h2>
+      <div  aria-hidden="true" class="collapsible-ele hide">
         <div class="blog-date">
           <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
           <time datetime="08/12/2020">11 August 2020</time>
@@ -61,6 +64,26 @@ is_project_btn_reqd: "False"
           Reference link: <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/" target="_blank">Read about selective dependency resolutions here</a>
           </div>
         </div>
+      </div>
     </li>
   </ul>
+  
+  <script>
+    function toggle(id){
+      var parentElement=document.getElementById(id);
+      var icon = parentElement.querySelector('button .fa');
+      var collapsibleDiv = parentElement.querySelector('.collapsible-ele');
+      var isHidden = collapsibleDiv.getAttribute('aria-hidden');
+
+      if(isHidden == 'true') {
+        collapsibleDiv.setAttribute('class', 'collapsible-ele show');
+        collapsibleDiv.setAttribute('aria-hidden', false);
+        icon.setAttribute('class', 'fa fa-minus-square-o');
+      } else {
+        collapsibleDiv.setAttribute('class', 'collapsible-ele hide');
+        collapsibleDiv.setAttribute('aria-hidden', true);
+        icon.setAttribute('class', 'fa fa-plus-square-o');
+      }
+    }
+  </script>
 </section>
