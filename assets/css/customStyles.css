@@ -222,7 +222,7 @@
 	padding-bottom: 15px;
 }
 
-.til-list h2 {
+.til-list h3 {
 	color: #15638d;
 }
 
@@ -237,8 +237,12 @@
 	width: 100%;
 	text-align: left;
 	font-size: 1.2em;
-	padding: 10px 5px;
+	padding: 10px 0;
 	cursor: pointer;	
+}
+
+.til-list .fa {
+	margin-right: 5px;
 }
 	
 /* 	.accordion {
