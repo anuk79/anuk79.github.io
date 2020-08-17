@@ -13,6 +13,64 @@ is_project_btn_reqd: "False"
 <p>This page will contain all the learnings and related resources which might be helpful for me in future as a quick reference. 
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
+    
+    <li  class="accordion" id="ac-3">  
+      <h3>
+        <button onclick=toggle('ac-3')><i class="fa fa-plus-square-o" aria-hidden="true"></i>HTML &lt;abbr&gt; tag</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="08/17/2020">17 August 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+        <div>
+          <div>
+            Today I learnt that we have a HTML tag for abbreviations. As per MDN,
+            <quote>
+              The HTML Abbreviation element (&lt;abbr&gt;) represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else.
+            </quote>
+            <p>
+              By default, the text under this element has a style set to <code>text-decoration: underline dotted;</code>
+              <br />
+              We can have custom styles on it and can set the text-decoration to <code>none</code> to remove that dotted underline on it.
+              I created a simple <a href="https://codepen.io/anuradha15/pen/zYqBBYv" source="_blank">codepen example</a> to see how this element works.
+            </p>
+            
+          </div>
+           <div>
+              <strong>Read more:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">MDN documentation on abbr tag</a>
+          </div>
+        </div>
+    </li>
+    
+    <li  class="accordion" id="ac-2">  
+      <h3>
+        <button onclick=toggle('ac-2')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Activate same-width numbers for a font</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="08/14/2020">14 August 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+        <div>
+          <div>
+            Today I learnt that we have css properties - <code>font-variant-numeric</code> and <code>font-feature-setting</code> which allow us 
+            to enable same width on the numbers for a font.
+            <p>
+                <strong>Source:</strong> <a href="https://twitter.com/sulco/status/1293862293139337217" target="_blank">Twitter post on it</a>
+            </p>
+            
+          </div>
+           <div>
+          There are some cool things we can achieve using these. </p>
+          <strong>Read more</strong> on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings">font-feature-settings</a> and 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric">font-variant-numeric</a>
+          </div>
+        </div>
+    </li>
+    
     <li  class="accordion" id="ac-1">  
       <h3>
         <button onclick=toggle('ac-1')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Add resolutions to package.json</button>
@@ -65,35 +123,8 @@ is_project_btn_reqd: "False"
           </div>
         </div>
       </div>
-    </li>
+    </li>   
     
-    <li  class="accordion" id="ac-2">  
-      <h3>
-        <button onclick=toggle('ac-2')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Activate same-width numbers for a font</button>
-      </h3>
-      <div  aria-hidden="true" class="collapsible-ele hide">
-        <div class="blog-date">
-          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
-          <time datetime="08/14/2020">14 August 2020</time>
-        </div>
-<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
-        <div>
-          <div>
-            Today I learnt that we have css properties - <code>font-variant-numeric</code> and <code>font-feature-setting</code> which allow us 
-            to enable same width on the numbers for a font.
-            <p>
-              <p>
-                <strong>Source:</strong> <a href="https://twitter.com/sulco/status/1293862293139337217" target="_blank">Twitter post on it</a>
-            </p>
-            
-          </div>
-           <div>
-          There are some cool things we can achieve using these. </p>
-          <strong>Read more</strong> on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings">font-feature-settings</a> and 
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric">font-variant-numeric</a>
-          </div>
-        </div>
-    </li>
   </ul>
   
   <script>
