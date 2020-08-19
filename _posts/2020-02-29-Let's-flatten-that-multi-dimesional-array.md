@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "Write a function to flatten a multi-dimensional array (depth can go till n-levels) and the result should not contain any null/undefined values."
 layout: default
 permalink: /programming/2020/02/29/let's-flatten-that-multi-dimesional-array/
+prevBlogLink: /accessibility/2019/11/25/awareness-for-accessibility/
+nextBlogLink: /unit_tests/2020/04/04/test-styled-components-in-react-effeciently-using-display-names/
 is_project_btn_reqd: "False"
 ---
 
