@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "In the coding universe, names matter a lot."
 layout: default
 permalink: /flutter/2019/05/28/errors-i-encountered-as-a-flutter-begineer/
+prevBlogLink: /unit_tests/2019/05/18/how-should-i-unit-test-my-code-part-1/
+nextBlogLink: /unit_tests/2019/06/22/how-should-i-unit-test-my-code-part-2/
 is_project_btn_reqd: "False"
 ---
 
