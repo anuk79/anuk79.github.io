@@ -253,8 +253,18 @@
 .prev-link, .next-link {
 	display: inline-block;
 	margin-top: 20px;
+	width: 49%;
 }
 
 .next-link {
-	float: right;
+	text-align: right;
+}
+
+@media screen and (max-width: 320px) {
+  .prev-link, .next-link {
+      display: block;
+	width: unset;
+	  text-align: left;
+  }
+	
 }
