@@ -249,3 +249,12 @@
 		padding: 10px 15px;
 		
 	} */
+
+.prev-link, .next-link {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.next-link {
+	float right;
+}
