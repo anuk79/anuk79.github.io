@@ -20,6 +20,7 @@
 <!--     <meta http-equiv="refresh" content="0; url='https://anuk79.netlify.app/'" /> -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="/assets/css/customStyles.css">
+    <link rel="stylesheet" href="https://www.bootstrapcdn.com/fontawesome/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -59,7 +60,14 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
+      {% if page.is_post == "True" %}
+        {% if page.prevBlogLink %}
+          <div class="prev-link"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i><a href={{ page.prevBlogLink }}>Read previous blog</a></div>
+        {% endif %}
+        {% if page.nextBlogLink %}
+          <div class="next-link"><a href={{ page.nextBlogLink }}>Read next blog</a><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></div>
+        {% endif %}
+      {% endif %}
       <footer class="site-footer">
         <p class="footer-contact-links">
           <span>
