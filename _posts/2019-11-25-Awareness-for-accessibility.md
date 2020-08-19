@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "Making resources and services usable and accessible for all"
 layout: default
 permalink: /accessibility/2019/11/25/awareness-for-accessibility/
+prevBlogLink: /programming/2019/08/14/proper-namin-convention-pays-off-in-long-run/
+nextBlogLink: /programming/2020/02/29/let's-flatten-that-multi-dimesional-array/
 is_project_btn_reqd: "False"
 ---
 
