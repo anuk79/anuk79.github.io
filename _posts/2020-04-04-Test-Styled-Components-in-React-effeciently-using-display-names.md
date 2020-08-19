@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "How to get rid of the weird styled component names in test snapshots"
 layout: default
 permalink: /unit_tests/2020/04/04/test-styled-components-in-react-effeciently-using-display-names/
+prevBlogLink: /programming/2020/02/29/let's-flatten-that-multi-dimesional-array/
+nextBlogLink: /kotlin/2020/05/08/entry-into-kotlin-world/
 is_project_btn_reqd: "False"
 ---
 
