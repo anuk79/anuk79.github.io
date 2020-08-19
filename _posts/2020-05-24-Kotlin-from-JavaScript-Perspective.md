@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "Sharing some basic takeaways from Kotlin from a javaScript developer perspective."
 layout: default
 permalink: /kotlin/2020/05/24/kotlin-from-javascript-perspective/
+prevBlogLink: /kotlin/2020/05/08/entry-into-kotlin-world/
+nextBlogLink: /motivation/2020/06/13/begin-anyways/
 is_project_btn_reqd: "False"
 ---
 
