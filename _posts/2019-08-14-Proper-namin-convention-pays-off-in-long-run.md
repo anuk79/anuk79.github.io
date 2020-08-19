@@ -7,6 +7,8 @@ is_home_btn_reqd: "True"
 subTitle: "In the coding universe, names matter a lot."
 layout: default
 permalink: /programming/2019/08/14/proper-namin-convention-pays-off-in-long-run/
+prevBlogLink: /unit_tests/2019/07/22/what-should-i-unit-test-in-my-code/
+nextBlogLink: /accessibility/2019/11/25/awareness-for-accessibility/
 is_project_btn_reqd: "False"
 ---
 
