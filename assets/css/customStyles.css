@@ -133,6 +133,10 @@
     text-align: center;
 }
 
+.site-footer-credits {
+	color: #1c2022;
+}
+
 .footer-contact-links .fa {
     font-size: 1.5em;
 }
