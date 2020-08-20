@@ -32,7 +32,7 @@
     
     <header class="page-header" role="banner">
       {% if page.is_post == "True" %}
-      <div class="back-to-home-link"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i><a href="/">Home</a></div>
+      <div class="back-to-home-link"><a href="/"><span aria-hidden="true">← </span> Home</a></div>
       {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
@@ -62,10 +62,10 @@
       {{ content }}
       {% if page.is_post == "True" %}
         {% if page.prevBlogLink %}
-          <div class="prev-link"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i><a href={{ page.prevBlogLink }}>Read previous blog</a></div>
+          <div class="prev-link"><a href={{ page.prevBlogLink }}><span aria-hidden="true">← </span> Read previous blog</a></div>
         {% endif %}
         {% if page.nextBlogLink %}
-          <div class="next-link"><a href={{ page.nextBlogLink }}>Read next blog</a><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></div>
+          <div class="next-link"><a href={{ page.nextBlogLink }}>Read next blog </a><span aria-hidden="true"> →</span></div>
         {% endif %}
       {% endif %}
       <footer class="site-footer">
