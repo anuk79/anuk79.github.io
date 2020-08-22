@@ -8,6 +8,7 @@ subTitle: "Have you been procrastinating just because you do not feel confident 
 layout: default
 permalink: /motivation/2020/06/13/begin-anyways/
 prevBlogLink: /kotlin/2020/05/24/kotlin-from-javascript-perspective/
+nextBlogLink: /accessibility/2020/08/22/how-i-got-started-with-a11y/
 is_project_btn_reqd: "False"
 ---
 
