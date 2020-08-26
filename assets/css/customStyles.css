@@ -11,6 +11,10 @@
   color: #1f971f;
 }
 
+.site-footer {
+  padding: 2em 0.5em;
+}
+
 .back-to-home-link a,
 .back-to-home-link .fas{
   color: white;
