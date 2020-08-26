@@ -14,6 +14,41 @@ is_project_btn_reqd: "False"
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
     
+     <li  class="accordion" id="ac-4">  
+      <h3>
+        <button onclick=toggle('ac-4')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Transient props in Styled Components</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="08/26/2020">26 August 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+        <div>
+          <div>
+            Today I learnt about `transient props` in [Styled Components](https://styled-components.com/). 
+            
+            <p>
+             Issue: When creating a styled component with a prop which is similar to an existing HTML attribute, that prop gets passed through 
+              to the underlying DOM element as a corresponding attribute. We could handle it by renaming that prop to not match any existing HTML attribute. 
+              This new props now enables us to pass the same props with `$` prefixed to them, and styled components will know not to pass these to the rendered DOM element nor pass it further down the component hierarchy. 
+            </p>
+            
+          </div>
+           <div>
+              <strong>Reference:</strong>
+             <ul>
+               <li>
+                 <a href="https://github.com/styled-components/styled-components/issues/3220" target="_blank">Styled component github issues</a><p/> 
+               </li>
+               <li>
+                 <a href="https://medium.com/@probablyup/introducing-transient-props-f35fd5203e0c" target="_blank">Read the detailed proposal on Medium</a>
+               </li>
+             </ul>  
+          </div>
+        </div>
+    </li>
+    
     <li  class="accordion" id="ac-3">  
       <h3>
         <button onclick=toggle('ac-3')><i class="fa fa-plus-square-o" aria-hidden="true"></i>HTML &lt;abbr&gt; tag</button>
