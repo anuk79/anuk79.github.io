@@ -14,6 +14,40 @@ is_project_btn_reqd: "False"
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
     
+    <li  class="accordion" id="ac-5">  
+      <h3>
+        <button onclick=toggle('ac-5')><i class="fa fa-plus-square-o" aria-hidden="true"></i>
+          vscode-jest-snippets
+        </button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="09/08/2020">8 September 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+        <div>
+          <div>
+            Today I discovered <a href="https://facebook.github.io/jest" target="_blank">Jest</a> snippet extension for Visual Studio Code. 
+            
+            <p>
+              As I am an advocate of writing unit test cases, I find myself writing unit tests pretty frequently. 
+              Currently I am working in a project which uses React for development and Jest for unit testing the code. 
+              When writing test cases, we add each test case under <code>it</code>. But when typing <strong>it</strong>
+              VS Code always autocompletes to <strong>instanceof</strong> and I had to rename it. 
+              So I googled on how to fix that and hit the stackoverflow link with exact issue solved with help of the extension 
+              <a href="https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets">vscode-jest-snippets</a>.
+              
+            </p>
+            
+          </div>
+           <div>
+              <strong>Reference:</strong>
+              <a href="https://stackoverflow.com/questions/63696524/how-to-get-vscode-to-autocomplete-it-instead-of-instanceof-for-jest-for-reac/63791628#63791628" target="_blank">Stack overflow link</a>
+          </div>
+        </div>
+    </li>
+    
      <li  class="accordion" id="ac-4">  
       <h3>
         <button onclick=toggle('ac-4')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Transient props in Styled Components</button>
@@ -26,7 +60,7 @@ is_project_btn_reqd: "False"
 <!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
         <div>
           <div>
-            Today I learnt about <code>transient props</code> in <a href="https://styled-components.com/" target="_blank">Styled Components]</a>. 
+            Today I learnt about <code>transient props</code> in <a href="https://styled-components.com/" target="_blank">Styled Components</a>. 
             
             <p>
              <strong>Issue:</strong> When creating a styled component with a prop which is similar to an existing HTML attribute, that prop gets passed through 
@@ -39,7 +73,7 @@ is_project_btn_reqd: "False"
               <strong>Reference:</strong>
              <ul>
                <li>
-                 <a href="https://github.com/styled-components/styled-components/issues/3220" target="_blank">Styled component github issues</a><p/> 
+                 <a href="https://github.com/styled-components/styled-components/issues/3220" target="_blank">Styled component github issues</a>
                </li>
                <li>
                  <a href="https://medium.com/@probablyup/introducing-transient-props-f35fd5203e0c" target="_blank">Read the detailed proposal on Medium</a>
