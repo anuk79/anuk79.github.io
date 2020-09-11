@@ -183,3 +183,6 @@ Thanks for reading, have a great day!!
 
 
 **NOTE:** This article was originally posted on [Medium](https://medium.com/@anuradha15/why-should-i-unit-test-my-code-989c378e8ebc)
+
+<blockquote class="embedly-card"><h4><a href="https://medium.com/@anuradha15/why-should-i-unit-test-my-code-989c378e8ebc">Why should I unit test my code?</a></h4><p>So, before you shall ask me, why should I unit test my code, 🤔 let's start by understanding what exactly is unit testing... There are many good explanations and introductory articles present on web which cover this topic.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
