@@ -13,3 +13,6 @@ is_project_btn_reqd: "False"
 ---
 
 [Medium post link](https://medium.com/@anuradha15/test-styled-components-in-react-efficiently-using-displayname-53281a0c1f2d)
+
+<blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@anuradha15/test-styled-components-in-react-efficiently-using-displayname-53281a0c1f2d">Test styled components in React efficiently using 'displayName'</a></h4><p>Find the relevant code examples at github. Clone the repository to follow along, if you want. There are two folders with same example, one of them uses displayName for styled components, while the other doesn't. We will start with the code which does not contain displayName to understand the issues.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
