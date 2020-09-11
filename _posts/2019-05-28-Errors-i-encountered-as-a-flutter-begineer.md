@@ -109,4 +109,7 @@ As I continue to explore Flutter, let’s see what the future holds!
 What issues did you face while learning Flutter? Do drop a comment if you feel like sharing.
 Till then, happy learning, have a great day…
 
-**Note**: originally piblished [here](https://medium.com/@anuradha15/errors-i-encountered-as-a-flutter-beginner-8f4f75d82e5b)
+**Note**: Originally published [here](https://medium.com/@anuradha15/errors-i-encountered-as-a-flutter-beginner-8f4f75d82e5b)
+
+<blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@anuradha15/errors-i-encountered-as-a-flutter-beginner-8f4f75d82e5b">Errors I encountered as a Flutter beginner</a></h4><p>Hi everyone, today I will share some of the errors which I encountered while getting started with Flutter and how can we solve them. If you are already working with Flutter for sometime now, you might find the errors very naive and simple.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
