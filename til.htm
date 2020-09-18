@@ -30,11 +30,11 @@ is_project_btn_reqd: "False"
           <div>
              Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
              I found many solutions for it on google, some of them are listed below for sample array of 
-            <code>var arr = [ { color: 'purple' }, { color: 'green'}, { color: 'yellow' } ]</code>
+            <pre>var arr = [ { color: 'purple' }, { color: 'green'}, { color: 'yellow' } ]</pre>
             <ul>
               <li>
                 When we need index as the key for the resulting object, we can use any of following approach:
-                <code>
+                <pre>
                   var obj = { ...arr };   // ES6
                   
                   or
@@ -55,11 +55,15 @@ is_project_btn_reqd: "False"
                                   2: {color: "yellow"}
                                 }
                   */
-                </code>
+                </pre>
               </li>
                <li>
                   When we need any custom as the key for the resulting object, we can use any of following approach:
-                <code>
+                <pre>
+                  var obj = Object.assign({},...arr.map(val => ({ [val.color]: val })));
+                  
+                  or
+                  
                   var obj = {};
                   arr.reduce(function(obj, item, index, arr) {
                     obj[item.color] = item;
@@ -72,7 +76,7 @@ is_project_btn_reqd: "False"
                                   'yellow': {color: "yellow"}
                                 }
                   */
-                </code>
+                </pre>
               </li>
             </ul>
           </div>
