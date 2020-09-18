@@ -30,52 +30,63 @@ is_project_btn_reqd: "False"
           <div>
              Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
              I found many solutions for it on google, some of them are listed below for sample array of 
-            <pre>var arr = [ { color: 'purple' }, { color: 'green'}, { color: 'yellow' } ]</pre>
+            <pre>
+var arr = [ { color: 'purple' }, { color: 'green'}, { color: 'yellow' } ]
+            </pre>
+            
             <ul>
               <li>
                 When we need index as the key for the resulting object, we can use any of following approach:
                 <pre>
-                  var obj = { ...arr };   // ES6
-                  
-                  or
-                  
-                  var obj = Object.assign({ }, arr);  // ES5
-                  
-                  or
-                  
-                  var obj = {};
-                  arr.reduce(function(obj, item, index, arr) {
-                    obj[index] = item;
-                    return obj;
-                  }, {})
-                  
-                  /** result -> {
-                                  0: {color: "purple"}
-                                  1: {color: "green"}
-                                  2: {color: "yellow"}
-                                }
-                  */
+  var obj = { ...arr };   // ES6
+
+  or
+
+  var obj = Object.assign({}, arr);  // ES5
+
+  or
+
+  var obj = {};
+  arr.reduce(function(obj, item, index, arr) {
+    obj[index] = item;
+    return obj;
+  }, {})
+
+  /** result -> 
+  {
+    0: {color: "purple"}
+    1: {color: "green"}
+    2: {color: "yellow"}
+  }
+  */
                 </pre>
               </li>
                <li>
                   When we need any custom as the key for the resulting object, we can use any of following approach:
+                 
                 <pre>
-                  var obj = Object.assign({},...arr.map(val => ({ [val.color]: val })));
-                  
-                  or
-                  
-                  var obj = {};
-                  arr.reduce(function(obj, item, index, arr) {
-                    obj[item.color] = item;
-                    return obj;
-                  }, {});
-                  
-                  /** result -> {
-                                  'purple': {color: "purple"}
-                                  'green': {color: "green"}
-                                  'yellow': {color: "yellow"}
-                                }
-                  */
+var obj = Object.assign(
+  {},
+  ...arr.map(val => ({ 
+    [val.color]: val 
+  }))
+);
+
+or
+
+var obj = {};
+arr.reduce(function(obj, item, index, arr) {
+  obj[item.color] = item;
+  return obj;
+}, {});
+
+/** result -> 
+  {
+    'purple': {color: "purple"}
+    'green': {color: "green"}
+    'yellow': {color: "yellow"}
+  }
+*/
                 </pre>
               </li>
             </ul>
