@@ -14,6 +14,75 @@ is_project_btn_reqd: "False"
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
     
+    <li  class="accordion" id="ac-7">  
+      <h3>
+        <button onclick=toggle('ac-7')><i class="fa fa-plus-square-o" aria-hidden="true"></i>
+          Converting array to object in JavaScript
+        </button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="09/18/2020">18 September 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+        <div>
+          <div>
+             Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
+             I found many solutions for it on google, some of them are listed below for sample array of 
+            <code>var arr = [ { color: 'purple' }, { color: 'green'}, { color: 'yellow' } ]</code>
+            <ul>
+              <li>
+                When we need index as the key for the resulting object, we can use any of following approach:
+                <code>
+                  var obj = { ...arr };   // ES6
+                  
+                  or
+                  
+                  var obj = Object.assign({ }, arr);  // ES5
+                  
+                  or
+                  
+                  var obj = {};
+                  arr.reduce(function(obj, item, index, arr) {
+                    obj[index] = item;
+                    return obj;
+                  }, {})
+                  
+                  /** result -> {
+                                  0: {color: "purple"}
+                                  1: {color: "green"}
+                                  2: {color: "yellow"}
+                                }
+                  */
+                </code>
+              </li>
+               <li>
+                  When we need any custom as the key for the resulting object, we can use any of following approach:
+                <code>
+                  var obj = {};
+                  arr.reduce(function(obj, item, index, arr) {
+                    obj[item.color] = item;
+                    return obj;
+                  }, {});
+                  
+                  /** result -> {
+                                  'purple': {color: "purple"}
+                                  'green': {color: "green"}
+                                  'yellow': {color: "yellow"}
+                                }
+                  */
+                </code>
+              </li>
+            </ul>
+          </div>
+           <div>
+              <strong>Reference:</strong>
+              <a href="https://stackoverflow.com/questions/4215737/convert-array-to-object" target="_blank">:Stackoverflow link</a>
+          </div>
+        </div>
+    </li>
+    
      <li  class="accordion" id="ac-6">  
       <h3>
         <button onclick=toggle('ac-6')><i class="fa fa-plus-square-o" aria-hidden="true"></i>
