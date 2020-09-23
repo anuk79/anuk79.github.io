@@ -31,12 +31,14 @@ is_project_btn_reqd: "False"
             some articles and this is a perfect <abbr title="Today I learnt">TIL</abbr>.
             In a nutshell, Blue-Green Deployment is a technique of running two identical production environments called Blue and Green.
             At any time, only one of the environments is live, with the live environment serving all production traffic. 
-            
+        </p>
+        <p>
             For e.g - let say we have the Blue environment currently live. As we prepare a new version of software, the
             deployment and final stage of testing takes place in the environment that is not live: in this example, Green. 
             Once we have deployed and fully tested the software in Green, we switch the router so all incoming requests now go to Green instead of Blue. 
             Green is now live, and Blue is idle.
-            
+        </p>
+        <p>
             This technique can eliminate downtime due to app deployment. 
             In addition, blue-green deployment reduces risk: if something unexpected happens with the new version on Green,
             we can immediately roll back to the last version by switching back to Blue.
