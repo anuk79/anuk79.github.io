@@ -14,6 +14,48 @@ is_project_btn_reqd: "False"
   Sharing in public, in case anyone else finds it useful.</p>
   <ul class="til-list">
     
+    <li  class="accordion" id="ac-8">  
+      <h3>
+        <button onclick=toggle('ac-8')><i class="fa fa-plus-square-o" aria-hidden="true"></i>
+          Blue-Green deployment
+        </button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="09/23/2020">23 September 2020</time>
+        </div>
+<!--         <div class="blog-tags"><i class="fa fa-tags" aria-label="Tags" title="Tags"></i>yarn, resolution, packagejson </div> -->
+            <p>
+            Today I came across term <a href="https://martinfowler.com/bliki/BlueGreenDeployment.html" target="_blank">Blue-Green deployment</a> while reading through
+            some articles and this is a perfect <abbr title="Today I learnt">TIL</abbr>.
+            In a nutshell, Blue-Green Deployment is a technique of running two identical production environments called Blue and Green.
+            At any time, only one of the environments is live, with the live environment serving all production traffic. 
+            
+            For e.g - let say we have the Blue environment currently live. As we prepare a new version of software, the
+            deployment and final stage of testing takes place in the environment that is not live: in this example, Green. 
+            Once we have deployed and fully tested the software in Green, we switch the router so all incoming requests now go to Green instead of Blue. 
+            Green is now live, and Blue is idle.
+            
+            This technique can eliminate downtime due to app deployment. 
+            In addition, blue-green deployment reduces risk: if something unexpected happens with the new version on Green,
+            we can immediately roll back to the last version by switching back to Blue.
+           
+        </p> 
+           <div>
+              <strong>References:</strong>
+             <ul>
+               <li>
+                 <a href="https://martinfowler.com/bliki/BlueGreenDeployment.html" target="_blank">Martin Fowler article on Blue-Green deployment</a>
+               </li>
+               <li>
+                 <a href="https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html" target="_blank">Cloud foundary guide on Blue-Green deployment</a>
+               </li>
+             </ul>
+          </div>
+        </div>
+    </li>
+    
     <li  class="accordion" id="ac-7">  
       <h3>
         <button onclick=toggle('ac-7')><i class="fa fa-plus-square-o" aria-hidden="true"></i>
