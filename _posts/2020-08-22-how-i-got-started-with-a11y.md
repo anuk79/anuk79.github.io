@@ -11,6 +11,8 @@ prevBlogLink: /motivation/2020/06/13/begin-anyways/
 is_project_btn_reqd: "False"
 ---
 
+<img src="../assets/images/a11y-blog-1.PNG" alt="" />
+
 Before we start, I would like to put out a disclaimer:
 <br /><br />
 This article is a summary of my encounter with web accessibility and how I reacted to it. This does not cover any technical aspects of a11y. 
