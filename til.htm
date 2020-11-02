@@ -9,7 +9,8 @@ is_project_btn_reqd: "False"
 <style>
   .figure-ex {
   font-family: system-ui;
-  padding: 5px 10px;
+  padding: 10px;
+    border: 2px solid blue;
 }
 
 .figure-ex div, 
@@ -17,23 +18,10 @@ is_project_btn_reqd: "False"
   margin: 1em;
 }
 
-.figure-ex div {
-  padding-bottom: 2em;
-}
-
-.figure-ex h1 {
-  font-size: 1.5em;
-  color: #b92222;
-}
-.figure-ex h2 {
-  font-size: 1.3em;
-  color: #3127b5;
-}
-
 .figure-ex div p,
 .figure-ex figcaption {
-    max-width: 55ch;
-  color: #561271;
+    max-width: 60ch;
+    color: #561271;
 }
 </style>
 <section class="til">
@@ -73,12 +61,12 @@ is_project_btn_reqd: "False"
             It tells the browser that <code>figure</code> is a container that holds elements that have a relation to each other. 
             While most common examples use an image to explain this tag, it's worth noting that it does not need to contain only image. 
             It can also contain tables, audio, video, etc.
-            To understand this, I am also going to use an image element.
+            To explin this, I am also going to use an image element with some related text content.
           </p>
            <p>
            Let's say we have an image and some text content that associates with it (some kind of caption). One way of creating it could be using image and paragraph elements wrapped within a div container.
-             <b>Code example:</b>
-             <textarea readonly rows="10" style="width:100%;resize:vertical">
+          <div><b>HTML Code:</b></div>
+             <textarea readonly rows="12" style="width:100%;resize:vertical;margin-top:5px">
   <pre>
   <div>
     <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
@@ -101,8 +89,8 @@ is_project_btn_reqd: "False"
           </p>
         <p>
           Now let's use figure element and see how we can get the same results.
-        <div>Code:</html>
-        <textarea readonly rows="10" style="width:100%;resize:vertical">
+        <div><b>HTML5 Code:</b></html>
+        <textarea readonly rows="12" style="width:100%;resize:vertical;margin-top:10px;">
   <pre>
   <figure>
     <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
@@ -112,7 +100,7 @@ is_project_btn_reqd: "False"
 </figure>
   </pre>
 </textarea>
-        <div> And, the result is as shown below: </div>
+        <div style="margin-top:10px"> And, the result is as shown below: </div>
         <div class="figure-ex">
           <figure>
     <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
