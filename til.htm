@@ -6,7 +6,36 @@ permalink: /quicktips/
 is_home_btn_reqd: "True"
 is_project_btn_reqd: "False"
 ---
+<style>
+  .figure-ex {
+  font-family: system-ui;
+  padding: 5px 10px;
+}
 
+.figure-ex div, 
+  .figure-ex figure {
+  margin: 1em;
+}
+
+.figure-ex div {
+  padding-bottom: 2em;
+}
+
+.figure-ex h1 {
+  font-size: 1.5em;
+  color: #b92222;
+}
+.figure-ex h2 {
+  font-size: 1.3em;
+  color: #3127b5;
+}
+
+.figure-ex div p,
+.figure-ex figcaption {
+    max-width: 55ch;
+  color: #561271;
+}
+</style>
 <section class="til">
   <h2>Sharing my everyday learnings</h2>
 
@@ -30,6 +59,77 @@ is_project_btn_reqd: "False"
           </div>
         </div>
     </li> -->
+    
+    <li  class="accordion" id="ac-12">  
+      <h3>
+        <button onclick=toggle('ac-12')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Figure tags in HTML5</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="11/02/2020">2 November 2020</time>       
+          <p>
+            Today I stumbled across <code>figure</code> tag which is one of the lesser known semantic tags which got introduced in HTML5.
+            It tells the browser that <code>figure</code> is a container that holds elements that have a relation to each other. 
+            While most common examples use an image to explain this tag, it's worth noting that it does not need to contain only image. 
+            It can also contain tables, audio, video, etc.
+            To understand this, I am also going to use an image element.
+          </p>
+           <p>
+           Let's say we have an image and some text content that associates with it (some kind of caption). One way of creating it could be using image and paragraph elements wrapped within a div container.
+             <b>Code example:</b>
+             <textarea readonly rows="10" style="width:100%;resize:vertical">
+  <pre>
+  <div>
+    <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
+    <p> 
+      How to train your dragon is one of my favorite movies and Night fury is the most adorable 
+      and amazing dragon I have ever met (through the movie, of course)
+    </p>
+</div>
+  </pre>
+</textarea>
+          <div>And the result is as shown below:</div>
+             <div class="figure-ex">
+             <div>
+                <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
+                <p> 
+                  How to train your dragon is one of my favorite movies and Night fury is the most adorable and amazing dragon I have ever met (through the movie, of course)
+                </p>
+              </div>
+               </div>
+          </p>
+        <p>
+          Now let's use figure element and see how we can get the same results.
+        <div>Code:</html>
+        <textarea readonly rows="10" style="width:100%;resize:vertical">
+  <pre>
+  <figure>
+    <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
+    <figcaption> 
+      How to train your dragon is one of my favorite movies and Night fury is the most adorable and amazing dragon I have ever met (through the movie, of course)
+    </figcaption>
+</figure>
+  </pre>
+</textarea>
+        <div> And, the result is as shown below: </div>
+        <div class="figure-ex">
+          <figure>
+    <img src="https://static.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" alt="Night fury dragon" width="180" height="200" />
+    <figcaption> 
+      How to train your dragon is one of my favorite movies and Night fury is the most adorable and amazing dragon I have ever met (through the movie, of course)
+    </figcaption>
+</figure>
+        </div>
+        </p>
+      <p>
+        Now, if we compare results, we see same visual result, but using a figure element adds the semantic to out elements and hence helps with accessibility and SEO.
+      </p>
+           <div>
+              <strong>References:</strong> <a href="https://forum.freecodecamp.org/t/why-use-the-figure-element/315116/3" target="_blank">Why use the figure element?</a>
+          </div>
+        </div>
+    </li>
     
         <li  class="accordion" id="ac-11">  
       <h3>
