@@ -73,7 +73,7 @@ is_project_btn_reqd: "False"
            Let's say we have an image and some text content that associates with it (some kind of caption). One way of creating it could be using image and paragraph elements wrapped within a div container.
           <div><b>HTML Code:</b></div>
              <textarea readonly rows="14" class="code-sample">
-  <pre>
+
   <div>
     <img src="https://c4.wallpaperflare.com/wallpaper/392/664/919/toothless-night-fury-how-to-train-your-dragon-how-to-train-your-dragon-2-wallpaper-preview.jpg" alt="Night fury dragon" width="300" height="200" />
     <p> 
@@ -81,7 +81,7 @@ is_project_btn_reqd: "False"
       and amazing dragon I have ever met (through the movie, of course)
     </p>
 </div>
-  </pre>
+
 </textarea>
           <div>And the result is as shown below:</div>
              <div class="figure-ex">
@@ -97,14 +97,14 @@ is_project_btn_reqd: "False"
           Now let's use figure element and see how we can get the same results.
         <div><b>HTML5 Code:</b></html>
         <textarea readonly rows="14" class="code-sample">
-  <pre>
+
   <figure>
     <img src="https://c4.wallpaperflare.com/wallpaper/392/664/919/toothless-night-fury-how-to-train-your-dragon-how-to-train-your-dragon-2-wallpaper-preview.jpg" alt="Night fury dragon" width="300" height="200" />
     <figcaption> 
       How to train your dragon is one of my favorite movies and Night fury is the most adorable and amazing dragon I have ever met (through the movie, of course)
     </figcaption>
 </figure>
-  </pre>
+
 </textarea>
         <div style="margin-top:10px"> And, the result is as shown below: </div>
         <div class="figure-ex">
@@ -264,21 +264,23 @@ is_project_btn_reqd: "False"
           <div>
              Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
              I found many solutions for it on google, some of them are listed below for sample array of 
+		  
 		  <textarea readonly rows="7" class="code-sample">
-            <pre>
+           
 var arr = [ 
   { color: 'purple' }, 
   { color: 'green'}, 
   { color: 'yellow' } 
 ];
-            </pre>
+          
 		  </textarea>
             
             <ul>
               <li>
                 When we need index as the key for the resulting object, we can use any of following approach:
+		      
 		      <textarea readonly rows="18" class="code-sample">
-                <pre>
+               
 // ES6
 var obj = { ...arr };
 
@@ -302,13 +304,14 @@ arr.reduce(function(obj, item, index, arr) {
   2: {color: "yellow"}
 }
 */
-                </pre>
+         
 		      </textarea>
               </li>
                <li>
                   When we need any custom as the key for the resulting object, we can use any of following approach:
+		       
                  <textarea readonly rows="18" class="code-sample">
-                <pre>
+                
 var obj = Object.assign(
 {},
 ...arr.map(val => ({ 
@@ -331,7 +334,7 @@ return obj;
   'yellow': {color: "yellow"}
 }
 */
-                </pre>
+        
 		       </textarea>
               </li>
             </ul>
@@ -529,7 +532,7 @@ return obj;
             <li> 
               Added a resolutions entry in the package.json for the sub-dependency
 		    <textarea readonly rows="14" class="code-sample">
-              <pre>
+             
   {
     "dependencies": {
       "package-1": "2.3.1",
@@ -541,7 +544,7 @@ return obj;
       "package-2": "3.1.7"  
      }
   }
-              </pre>
+         
 	</textarea>
             </li>
             <li>Re-run yarn upgrade command for package-1, and this time it does not increment the sub-dependency version. Problem solved!</li>
