@@ -72,7 +72,7 @@ is_project_btn_reqd: "False"
            <p>
            Let's say we have an image and some text content that associates with it (some kind of caption). One way of creating it could be using image and paragraph elements wrapped within a div container.
           <div><b>HTML Code:</b></div>
-             <textarea readonly rows="13" class="code-sample">
+             <textarea readonly rows="12" class="code-sample">
   <div>
     <img src="https://c4.wallpaperflare.com/wallpaper/392/664/919/toothless-night-fury-how-to-train-your-dragon-how-to-train-your-dragon-2-wallpaper-preview.jpg" alt="Night fury dragon" width="300" height="200" />
     <p> 
@@ -94,7 +94,7 @@ is_project_btn_reqd: "False"
         <p>
           Now let's use figure element and see how we can get the same results.
         <div><b>HTML5 Code:</b></html>
-        <textarea readonly rows="13" class="code-sample">
+        <textarea readonly rows="12" class="code-sample">
   <figure>
     <img src="https://c4.wallpaperflare.com/wallpaper/392/664/919/toothless-night-fury-how-to-train-your-dragon-how-to-train-your-dragon-2-wallpaper-preview.jpg" alt="Night fury dragon" width="300" height="200" />
     <figcaption> 
@@ -261,20 +261,19 @@ is_project_btn_reqd: "False"
              Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
              I found many solutions for it on google, some of them are listed below for sample array of 
 		  
-		  <textarea readonly rows="6" class="code-sample">           
+		  <textarea readonly rows="6" class="code-sample">  
 var arr = [ 
   { color: 'purple' }, 
   { color: 'green'}, 
   { color: 'yellow' } 
-];          
-		  </textarea>
+];   </textarea>
             
             <ul>
               <li>
                 When we need index as the key for the resulting object, we can use any of following approach:
 		      
-		      <textarea readonly rows="21" class="code-sample">               
-// ES6
+		      <textarea readonly rows="22" class="code-sample">
+			      // ES6
 var obj = { ...arr };
 
 or
@@ -296,13 +295,12 @@ arr.reduce(function(obj, item, index, arr) {
   1: {color: "green"}
   2: {color: "yellow"}
 }
-*/         
-		      </textarea>
+*/      </textarea>
               </li>
                <li>
                   When we need any custom as the key for the resulting object, we can use any of following approach:
 		       
-                 <textarea readonly rows="21" class="code-sample">                
+                 <textarea readonly rows="22" class="code-sample"> 
 var obj = Object.assign(
 {},
 ...arr.map(val => ({ 
@@ -324,8 +322,7 @@ return obj;
   'green': {color: "green"}
   'yellow': {color: "yellow"}
 }
-*/        
-		       </textarea>
+*/ </textarea>
               </li>
             </ul>
           </div>
@@ -521,7 +518,7 @@ return obj;
             <li> Deleted the package lock file created</li>
             <li> 
               Added a resolutions entry in the package.json for the sub-dependency
-		    <textarea readonly rows="14" class="code-sample">             
+		    <textarea readonly rows="15" class="code-sample">    
   {
     "dependencies": {
       "package-1": "2.3.1",
@@ -532,8 +529,7 @@ return obj;
         * which got upgraded to a higher version which we did not want */
       "package-2": "3.1.7"  
      }
-  }         
-	</textarea>
+  } </textarea>
             </li>
             <li>Re-run yarn upgrade command for package-1, and this time it does not increment the sub-dependency version. Problem solved!</li>
           </ol>
