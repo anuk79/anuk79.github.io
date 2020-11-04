@@ -264,6 +264,7 @@ is_project_btn_reqd: "False"
           <div>
              Today I came across a use-case where-in i needed to convert and Array into an Object for one of my tasks.
              I found many solutions for it on google, some of them are listed below for sample array of 
+		  <textarea readonly rows="7" class="code-sample">
             <pre>
 var arr = [ 
   { color: 'purple' }, 
@@ -271,10 +272,12 @@ var arr = [
   { color: 'yellow' } 
 ];
             </pre>
+		  </textarea>
             
             <ul>
               <li>
                 When we need index as the key for the resulting object, we can use any of following approach:
+		      <textarea readonly rows="18" class="code-sample">
                 <pre>
 // ES6
 var obj = { ...arr };
@@ -300,10 +303,11 @@ arr.reduce(function(obj, item, index, arr) {
 }
 */
                 </pre>
+		      </textarea>
               </li>
                <li>
                   When we need any custom as the key for the resulting object, we can use any of following approach:
-                 
+                 <textarea readonly rows="18" class="code-sample">
                 <pre>
 var obj = Object.assign(
 {},
@@ -328,6 +332,7 @@ return obj;
 }
 */
                 </pre>
+		       </textarea>
               </li>
             </ul>
           </div>
@@ -523,6 +528,7 @@ return obj;
             <li> Deleted the package lock file created</li>
             <li> 
               Added a resolutions entry in the package.json for the sub-dependency
+		    <textarea readonly rows="14" class="code-sample">
               <pre>
   {
     "dependencies": {
@@ -536,6 +542,7 @@ return obj;
      }
   }
               </pre>
+	</textarea>
             </li>
             <li>Re-run yarn upgrade command for package-1, and this time it does not increment the sub-dependency version. Problem solved!</li>
           </ol>
