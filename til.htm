@@ -53,6 +53,103 @@ is_project_btn_reqd: "False"
           </div>
         </div>
     </li> -->
+	  
+	  <li  class="accordion" id="til-14">  
+      <h3>
+        <button onclick=toggle('til-14')><i class="fa fa-plus-square-o" aria-hidden="true"></i>ES8 or ES2017 features</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="11/04/2020">4 November 2020</time>       
+          <p>
+		Continuing my concepts refresher journey, I went through all the features added in ES8. The link with details is listed in the references section.
+		
+          </p>
+           <div>
+              <strong>References:</strong> 
+			  <ul>
+				  <li>
+					<a href="https://flaviocopes.com/es2017/" target="_blank">The ES2017 Guide</a>
+				  </li>
+			  </ul>
+			  
+          </div>
+        </div>
+    </li>
+	
+	<li  class="accordion" id="til-13">  
+      <h3>
+        <button onclick=toggle('til-13')><i class="fa fa-plus-square-o" aria-hidden="true"></i>ES6 Template literals/strings</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="11/03/2020">3 November 2020</time>       
+          <p>
+            Every year, as the year end approaches, I try to refresh my knowledge of technical topics I am working on, and the ones I love.
+			This year too, as November began, so did my refresher journey. I started by going through the JavaScript concepts.
+			<br>
+			I came across <code>template literals</code> concept. As a React developer, I have been using this feature
+			extensively and this is certainly one of the most useful features to come in ES6. It is used for string substitution and for creating multiline strings. <br>
+			On further read, I found something called as <code>tagged templates</code>.
+			As I never read it before, this intrigued me and I dig deeper to understand its syntax and usage.<br>
+			Tagged templates are basically a special type of function call where function name is placed before 
+			the template string. PFB code sample:
+			<textarea  readonly rows="25" class="code-sample">
+				function showOrderDetails(stringVals, ...values) {
+				    /**
+					*  stringVals contains all the strings in array form,
+					*  the second onwards parameters of this function contain all the individual string interpolated values
+					*  and we are gathering them in 'values' using rest operator.
+					*/
+					let resultStr = '';
+					for (let i = 0; i < stringVals.length; i++) {
+						if (i > 0) {
+							if (typeof values[i - 1] === "number") {
+							  resultStr += `$${values[i-1].toFixed(2)}`;
+							} else {
+							  resultStr += values[i-1]
+							}
+						}
+						resultStr += stringVals[i]
+					}
+					return resultStr;
+				}
+			
+				let name = "Anu";
+				let price = 2500;
+			
+				showOrderDetails`Congratulations ${name}! Your order for ${price} has been successfully placed`
+				
+				/** output ->
+				Congratulations Anu! Your order for $2000.00 has been successfully placed
+				*/
+			</textarea>
+			
+          </p>
+		  <p>
+		    This is such a powerful tool, and can be used for a wide range of scenarios, like formatting, localization,
+			automatic escaping of any interpolated variables, etc.. You can go through links in references section to read
+			details about template literals and tagged templates.
+		  </p>
+           <div>
+              <strong>References:</strong> 
+			  <ul>
+				  <li>
+					<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" target="_blank">MDN documentation on Template literals</a>
+				  </li>
+				  <li>
+					<a href="https://developers.google.com/web/updates/2015/01/ES6-Template-Strings" target="_blank">MDN documentation on Template literals</a>
+				  </li>
+				  <li>
+					<a href="https://wesbos.com/tagged-template-literals" target="_blank">Tagged Template Literals by Wes bos</a>
+				  </li>
+			  </ul>
+			  
+          </div>
+        </div>
+    </li>
     
     <li  class="accordion" id="til-12">  
       <h3>
