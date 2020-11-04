@@ -97,34 +97,35 @@ is_project_btn_reqd: "False"
 			Tagged templates are basically a special type of function call where function name is placed before 
 			the template string. PFB code sample:
 			<textarea  readonly rows="25" class="code-sample">
-				function showOrderDetails(stringVals, ...values) {
-				    /**
-					*  stringVals contains all the strings in array form,
-					*  the second onwards parameters of this function contain all the individual string interpolated values
-					*  and we are gathering them in 'values' using rest operator.
-					*/
-					let resultStr = '';
-					for (let i = 0; i < stringVals.length; i++) {
-						if (i > 0) {
-							if (typeof values[i - 1] === "number") {
-							  resultStr += `$${values[i-1].toFixed(2)}`;
-							} else {
-							  resultStr += values[i-1]
-							}
-						}
-						resultStr += stringVals[i]
-					}
-					return resultStr;
-				}
-			
-				let name = "Anu";
-				let price = 2500;
-			
-				showOrderDetails`Congratulations ${name}! Your order for ${price} has been successfully placed`
-				
-				/** output ->
-				Congratulations Anu! Your order for $2000.00 has been successfully placed
-				*/
+function showOrderDetails(stringVals, ...values) {
+  /**
+  *  stringVals contains all the strings in array form,
+  *  the second onwards parameters of this function contain
+  * all the individual string interpolated values
+  *  and we are gathering them in 'values' using rest operator.
+  */
+  let resultStr = '';
+  for (let i = 0; i < stringVals.length; i++) {
+    if (i > 0) {
+      if (typeof values[i - 1] === "number") {
+        resultStr += `$${values[i-1].toFixed(2)}`;
+      } else {
+        resultStr += values[i-1]
+      }
+    }
+    resultStr += stringVals[i]
+  }
+  return resultStr;
+}
+
+let name = "Anu";
+let price = 2500;
+
+showOrderDetails`Congratulations ${name}! Your order for ${price} has been successfully placed`
+
+/** output ->
+Congratulations Anu! Your order for $2000.00 has been successfully placed
+*/
 			</textarea>
 			
           </p>
