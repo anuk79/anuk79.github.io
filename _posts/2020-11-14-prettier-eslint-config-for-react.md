@@ -7,6 +7,6 @@ is_home_btn_reqd: "True"
 subTitle: ""
 layout: default
 prevBlogLink: /accessibility/2020/08/22/how-i-got-started-with-a11y/
-url: https://prettier-eslint-configuration-for-react.netlify.app/
+gotourl: https://prettier-eslint-configuration-for-react.netlify.app/
 is_project_btn_reqd: "False"
 ---
