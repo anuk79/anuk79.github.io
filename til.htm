@@ -23,6 +23,13 @@ is_project_btn_reqd: "False"
     max-width: 60ch;
     color: #561271;
 }
+.custom-caret {
+    caret-color: #3ed372;
+    border: 1px solid #111010;
+    padding: 10px;
+    background-color: #373535;
+    color: white;
+}
 </style>
 <section class="til">
   <h2>Sharing my everyday learnings</h2>
@@ -53,6 +60,39 @@ is_project_btn_reqd: "False"
           </div>
         </div>
     </li> -->
+	  
+	   <li  class="accordion" id="til-16">  
+      <h3>
+        <button onclick=toggle('til-16')><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="11/14/2020">14 November 2020</time>       
+          <p>
+		  Today I came across a css property called <a href="">caret-color</a>. It is such a cool little feature, and it is
+		  <a href="https://caniuse.com/?search=caret-color" target="_blank">supported by all major browsers</a>.
+          </p>
+		<p>
+			This caret-color CSS property changes the color of the cursor (or caret) in any editabel element, like  inputs, texareas, or 
+			a contenteditable div.
+			For example, PFB the div which is content editable and I have changed it's caret-color to be hexcode - #3ed372.
+			
+		</p>
+		<div class="custom-caret" contenteditable>Hello there, I am an editable div. Look at my caret-color. Isn't it pretty.</div>
+		<div>
+			<strong>References:</strong>
+			<ul>
+				<li>
+					<a href="https://twitter.com/IMAC2/status/1331222842864766980?s=19" target="_blank">tweet of Álvaro Trigo mentioning this property</a>
+				</li>
+				<li>
+					<a href="https://css-tricks.com/almanac/properties/c/caret-color/9" target="_blank">css tricks article on caret color</a>
+				</li>
+			</ul>
+		</div>
+        </div>
+    </li>
 	  
 	  <li  class="accordion" id="til-15">  
       <h3>
