@@ -7,7 +7,7 @@ is_home_btn_reqd: "True"
 subTitle: ""
 layout: default
 permalink: /accessibility/2020/12/20/accessible-advent-2020/
-prevBlogLink: /motivation/2020/06/13/begin-anyways/
+
 is_project_btn_reqd: "False"
 ---
 
