@@ -10,3 +10,4 @@ prevBlogLink: https://prettier-eslint-configuration-for-react.netlify.app/
 gotourl: https://medium.com/javascript-in-plain-english/your-front-end-code-needs-to-be-unit-tested-f998b016c448
 is_project_btn_reqd: "False"
 ---
+[medium article](https://medium.com/javascript-in-plain-english/your-front-end-code-needs-to-be-unit-tested-f998b016c448)
