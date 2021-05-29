@@ -60,6 +60,46 @@ is_project_btn_reqd: "False"
           </div>
         </div>
     </li> -->
+	  <li  class="accordion" id="til-20">  
+      <h3>
+        <button onclick=toggle('til-20')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Restart VPN system when it stops working</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="05/29/2021">29 May 2021</time>       
+          <p>
+		 <ol>
+			 <li>Open task manager and end the VPN session.</li>
+			 <li>Go to command prompt (cmd) and follow the next commands</li>
+			 <li>ipconfig /flushdns ( It will flush your DNS entry )</li>
+			 <li>ipconfig /release ( Your internet will disconnect )</li>
+			 <li>ipconfig /renew ( internet will connect again)</li>
+			 <li>Open RUN window ( Windows button + R ).</li>
+			 <li>type services.msc</li>
+			 <li>Services window will open > find the vpn service. > restart that service.</li>
+			 <li>Connect VPN now. It should connect successfully after entering proper id and password.</li>
+		</ol>
+	  </p>
+
+        </div>
+    </li>
+	  
+	  <li  class="accordion" id="til-19">  
+      <h3>
+        <button onclick=toggle('til-19')><i class="fa fa-plus-square-o" aria-hidden="true"></i>VS Code tip</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="05/29/2021">29 May 2021</time>       
+          <p>
+		  When we are using VS Code, we can press <key>CTRL</key> + <key>Shift</key> + <strong>L</strong>. This will highlight the text as well as find every copy of it
+		  in that file. This enables us to edit multiple lines at same time.
+		</p>
+
+        </div>
+    </li>
 	  
 	  <li  class="accordion" id="til-18">  
       <h3>
