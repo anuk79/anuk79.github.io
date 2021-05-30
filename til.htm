@@ -60,6 +60,24 @@ is_project_btn_reqd: "False"
           </div>
         </div>
     </li> -->
+	  <li  class="accordion" id="til-22">  
+      <h3>
+        <button onclick=toggle('til-22')><i class="fa fa-plus-square-o" aria-hidden="true"></i>yarn link/unlink</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="05/30/2021">30 May 2021</time>       
+          <p>
+		  Run command <em>yarn link</em> in the repositories which we want to link, let say repo1.
+		  <br />
+		  Run command <em> yarn link repo1</em> in the repository where we want to link <i>repo1</i>.
+		  <br />
+		  Run command <em>yarn unlink repo1</em> if we want to unlink the repository. Also need to run yarn install after unlinking any repostory so that it can fetch it from the packages now.
+		</p>
+
+        </div>
+    </li>
 	  <li  class="accordion" id="til-21">  
       <h3>
         <button onclick=toggle('til-21')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Git shallow clone</button>
