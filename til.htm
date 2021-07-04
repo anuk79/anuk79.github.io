@@ -62,6 +62,24 @@ is_project_btn_reqd: "False"
     </li> -->
 	  <li  class="accordion" id="til-25">  
       <h3>
+        <button onclick=toggle('til-25')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Hide sourcemap for apps deployed on netlify</button>
+      </h3>
+      <div  aria-hidden="true" class="collapsible-ele hide">
+        <div class="blog-date">
+          <i class="fa fa-calendar" aria-label="Published on" title="Published on"></i>
+          <time datetime="07/04/2021">4 July 2021</time>       
+          <p>
+		 By default, when we deploy our websites to netlify or similar platforms, the source code can be seen in the <em>sources</em> gtab of devtools.
+		  <br />
+		  If you want to hide it from the users, you can do that by adding a flag to <code>.env</code> file in the project root:
+		  <code>GENERATE_SOURCEMAP=false</code>
+		  
+		</p>
+
+        </div>
+    </li>
+	  <li  class="accordion" id="til-25">  
+      <h3>
         <button onclick=toggle('til-25')><i class="fa fa-plus-square-o" aria-hidden="true"></i>Add RSS feed to slack</button>
       </h3>
       <div  aria-hidden="true" class="collapsible-ele hide">
